@@ -1,2 +1,30 @@
 @import '_variables.scss';
 
+nav{
+	background-color:$nav-color;
+	padding:15px;
+	ul{
+		text-align:right;
+	}
+}
+li{
+	display: inline-block;
+	padding:25px;
+	padding-right:20px;
+	a{
+		color: $nav-font-color;
+		text-decoration: none;
+		padding:25px;
+		border:1px solid $nav-font-color;
+		&:hover{
+			color:$background-color;
+		}
+	}
+}
+
+.nav_image {
+	display:inline;
+	float:left;
+	width:80px;
+	height:70px;
+}
