@@ -47,4 +47,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.first_section {
+  background-color: #f1f0ff;
+  padding: 25px;
+  padding-bottom: 40px; }
+  .first_section .first_article {
+    -webkit-columns: 2 200px;
+    -moz-columns: 2 200px;
+    columns: 2 200px;
+    border: 1px solid #8C489F;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+
 /*# sourceMappingURL=main.css.map */
