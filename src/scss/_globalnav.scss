@@ -1,7 +1,7 @@
 @import '_variables.scss';
 
 nav{
-	background-color:$nav-color;
+	background-color:$secondary_color;
 	padding:15px;
 	ul{
 		text-align:right;
@@ -12,10 +12,10 @@ li{
 	padding:25px;
 	padding-right:20px;
 	a{
-		color: $nav-font-color;
+		color: $section_color;
 		text-decoration: none;
 		padding:25px;
-		border:1px solid $nav-font-color;
+		border:1px solid $section_color;
 		&:hover{
 			color:$background-color;
 		}
