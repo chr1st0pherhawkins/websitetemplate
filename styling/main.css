@@ -1,5 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ */
 /* v1.0 | 20080212 */
+@import url(https://fonts.googleapis.com/css?family=Philosopher);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,6 +47,9 @@ del {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+p {
+  font-family: 'Philosopher', sans-serif; }
 
 nav {
   background-color: #443266;
@@ -97,8 +101,7 @@ li {
   background-color: #FFEBCD;
   padding-top: 25px;
   padding-bottom: 40px;
-  border: 5px solid #443266;
-  text-align: center; }
+  border: 5px solid #443266; }
   .second_section .second_article {
     padding-top: 15px;
     padding-bottom: 10px; }
