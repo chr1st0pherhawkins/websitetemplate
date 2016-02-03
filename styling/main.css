@@ -87,7 +87,8 @@ li {
   text-align: center;
   background-color: #f1f0ff;
   padding: 25px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  border: 5px solid #443266; }
   .first_section .first_article {
     -webkit-columns: 2 200px;
     -moz-columns: 2 200px;
